@@ -1,0 +1,96 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Times New Romman;
+  
+  background-size: 1366px 1670px;
+}
+
+section {
+ /* border:3px solid #ffff00; */
+ width: 420px;  
+  padding: 80px 30px 30px 30px;
+  height: 400px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 5px; 
+  background-image: url("../image/Heliotrope.jpg");
+ 
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 250px;
+  background: #fff;
+  border: none;
+  height: 45px;
+  margin-bottom: 22px;
+  border-radius:10px;
+  text-align: center;
+  font-size: 18px ;
+  color: #7f8c8d;  
+}
+#select{
+  width: 250px;
+  background: #fff;
+  border: none;
+  height: 32px;
+  margin-bottom: 22px;
+  margin-left:55px;
+  border-radius:5px;
+  padding-left:75px;
+  font-size: 18px ;
+  color: #7f8c8d;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  border: none;
+  background:  #3498db;
+  color: #ecf0f1;
+  font-weight: 100;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: all ease-in-out .5s;
+  border-bottom: 3px solid #2980b9;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background: #2980b9  
+
+}
+
+h2 {
+  font-size: .75em;
+}
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: all ease-in-out .2s;
+}
+
+a:hover {
+  color: #c0392b;
+}
+
+/*::-webkit-input-placeholder {
+   color: red;
+}*/
